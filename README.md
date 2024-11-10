@@ -1,6 +1,6 @@
 # ci-cd-configurations-files
 
-## Commands: We have used in Our Video yes ok
+## Commands: We have used in Our Video yes ok dz
 
 
 $ wget https://Bucket-name.s3.Region-identifier.amazonaws.com/latest/install
