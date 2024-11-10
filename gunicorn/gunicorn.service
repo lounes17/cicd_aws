@@ -1,18 +1,12 @@
-
 [Unit]
-Description=gunicorn daemon for Django project
+Description=gunicorn daemon for Django
 After=network.target
 
 [Service]
 User=ubuntu
-Group=www-data
+Group=ubuntu
 WorkingDirectory=/home/ubuntu/cicdaws
-ExecStart=/home/ubuntu/cicdaws/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/cicdaws/gunicorn.sock cicdaws.wsgi:application
-
-Restart=always
-RestartSec=5
-Environment=DJANGO_SETTINGS_MODULE=cicdaws.settings
-Environment=PYTHONPATH=/home/ubuntu/cicdaws
+ExecStart=/home/ubuntu/env/bin/gunicorn --workers 3 --bind unix:/run/gunicorn.sock cicdaws.wsgi:application
 
 [Install]
 WantedBy=multi-user.target
