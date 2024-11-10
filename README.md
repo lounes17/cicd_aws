@@ -6,7 +6,7 @@
 $ wget https://Bucket-name.s3.Region-identifier.amazonaws.com/latest/install
 
 
-##### Next up, we need to change the permission on the install file we will get after running the command above.
+##### loune lsdz .
 
 $ chmod +x ./install
 
