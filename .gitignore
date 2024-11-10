@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Media files
+media/
+staticfiles/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# MacOS files
+.DS_Store
+
+# Virtual environment
+venv/
+ENV/
+env/
+*.venv
+
+# Node.js files (if you use npm for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Gunicorn logs (if you're using Gunicorn)
+gunicorn.log
+gunicorn.err
+
+# MySQL/MariaDB dumps
+*.sql
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Celery task queue
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Temporary fil
