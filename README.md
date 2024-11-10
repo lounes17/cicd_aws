@@ -6,7 +6,7 @@
 $ wget https://Bucket-name.s3.Region-identifier.amazonaws.com/latest/install
 
 
-##### loune lsdz .
+#####
 
 $ chmod +x ./install
 
